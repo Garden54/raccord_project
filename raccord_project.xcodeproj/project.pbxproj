@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32BA1BF3FE0FDEC5F01F728F /* Pods_raccord_project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD23D2B0EB2C0120638FD5C /* Pods_raccord_project.framework */; };
 		82489274220DEB8E00815C02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82489273220DEB8E00815C02 /* AppDelegate.swift */; };
 		82489276220DEB8E00815C02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82489275220DEB8E00815C02 /* ViewController.swift */; };
 		82489279220DEB8E00815C02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82489277220DEB8E00815C02 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D4BFCE631B6F8E4BA580711 /* Pods-raccord_project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-raccord_project.release.xcconfig"; path = "Pods/Target Support Files/Pods-raccord_project/Pods-raccord_project.release.xcconfig"; sourceTree = "<group>"; };
 		82489270220DEB8E00815C02 /* raccord_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = raccord_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82489273220DEB8E00815C02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82489275220DEB8E00815C02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		8248927A220DEB8E00815C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8248927D220DEB8E00815C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8248927F220DEB8E00815C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD23D2B0EB2C0120638FD5C /* Pods_raccord_project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_raccord_project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48B5144AAFDB26FF17B4D01 /* Pods-raccord_project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-raccord_project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-raccord_project/Pods-raccord_project.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32BA1BF3FE0FDEC5F01F728F /* Pods_raccord_project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				82489272220DEB8E00815C02 /* raccord_project */,
 				82489271220DEB8E00815C02 /* Products */,
+				CAE4AD2E459740DC451638DF /* Pods */,
+				DD5BE421DB7E0C9F9F4EFF03 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +62,54 @@
 			isa = PBXGroup;
 			children = (
 				82489273220DEB8E00815C02 /* AppDelegate.swift */,
-				82489275220DEB8E00815C02 /* ViewController.swift */,
-				82489277220DEB8E00815C02 /* Main.storyboard */,
+				82489287220DEC0C00815C02 /* Controllers */,
+				82489285220DEC0200815C02 /* Data Model */,
+				82489286220DEC0700815C02 /* Views */,
 				8248927A220DEB8E00815C02 /* Assets.xcassets */,
 				8248927C220DEB8E00815C02 /* LaunchScreen.storyboard */,
 				8248927F220DEB8E00815C02 /* Info.plist */,
 			);
 			path = raccord_project;
+			sourceTree = "<group>";
+		};
+		82489285220DEC0200815C02 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		82489286220DEC0700815C02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82489277220DEB8E00815C02 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		82489287220DEC0C00815C02 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				82489275220DEB8E00815C02 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CAE4AD2E459740DC451638DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F48B5144AAFDB26FF17B4D01 /* Pods-raccord_project.debug.xcconfig */,
+				7D4BFCE631B6F8E4BA580711 /* Pods-raccord_project.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD5BE421DB7E0C9F9F4EFF03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AD23D2B0EB2C0120638FD5C /* Pods_raccord_project.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82489282220DEB8E00815C02 /* Build configuration list for PBXNativeTarget "raccord_project" */;
 			buildPhases = (
+				A6BE8CE392939DE30676A731 /* [CP] Check Pods Manifest.lock */,
 				8248926C220DEB8E00815C02 /* Sources */,
 				8248926D220DEB8E00815C02 /* Frameworks */,
 				8248926E220DEB8E00815C02 /* Resources */,
+				AC5674E37B19E2A06D021CEC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +179,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6BE8CE392939DE30676A731 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-raccord_project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC5674E37B19E2A06D021CEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-raccord_project/Pods-raccord_project-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-raccord_project/Pods-raccord_project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8248926C220DEB8E00815C02 /* Sources */ = {
@@ -280,6 +379,7 @@
 		};
 		82489283220DEB8E00815C02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F48B5144AAFDB26FF17B4D01 /* Pods-raccord_project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +398,7 @@
 		};
 		82489284220DEB8E00815C02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D4BFCE631B6F8E4BA580711 /* Pods-raccord_project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
