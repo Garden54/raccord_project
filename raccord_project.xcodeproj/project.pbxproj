@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		32BA1BF3FE0FDEC5F01F728F /* Pods_raccord_project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD23D2B0EB2C0120638FD5C /* Pods_raccord_project.framework */; };
 		82489274220DEB8E00815C02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82489273220DEB8E00815C02 /* AppDelegate.swift */; };
-		82489276220DEB8E00815C02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82489275220DEB8E00815C02 /* ViewController.swift */; };
+		82489276220DEB8E00815C02 /* FilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82489275220DEB8E00815C02 /* FilmViewController.swift */; };
 		82489279220DEB8E00815C02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82489277220DEB8E00815C02 /* Main.storyboard */; };
 		8248927B220DEB8E00815C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8248927A220DEB8E00815C02 /* Assets.xcassets */; };
 		8248927E220DEB8E00815C02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8248927C220DEB8E00815C02 /* LaunchScreen.storyboard */; };
+		82489289220DEC9E00815C02 /* Films.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82489288220DEC9E00815C02 /* Films.swift */; };
+		8248928B220DEE5200815C02 /* Perso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8248928A220DEE5200815C02 /* Perso.swift */; };
+		8248928D220DEE6500815C02 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8248928C220DEE6500815C02 /* Sequence.swift */; };
+		8248928F220DEE7100815C02 /* Decor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8248928E220DEE7100815C02 /* Decor.swift */; };
+		82489291220DEE8000815C02 /* Accessoire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82489290220DEE8000815C02 /* Accessoire.swift */; };
+		82489293220DF0D400815C02 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82489292220DF0D400815C02 /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7D4BFCE631B6F8E4BA580711 /* Pods-raccord_project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-raccord_project.release.xcconfig"; path = "Pods/Target Support Files/Pods-raccord_project/Pods-raccord_project.release.xcconfig"; sourceTree = "<group>"; };
 		82489270220DEB8E00815C02 /* raccord_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = raccord_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82489273220DEB8E00815C02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		82489275220DEB8E00815C02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82489275220DEB8E00815C02 /* FilmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmViewController.swift; sourceTree = "<group>"; };
 		82489278220DEB8E00815C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8248927A220DEB8E00815C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8248927D220DEB8E00815C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8248927F220DEB8E00815C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82489288220DEC9E00815C02 /* Films.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Films.swift; sourceTree = "<group>"; };
+		8248928A220DEE5200815C02 /* Perso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perso.swift; sourceTree = "<group>"; };
+		8248928C220DEE6500815C02 /* Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
+		8248928E220DEE7100815C02 /* Decor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decor.swift; sourceTree = "<group>"; };
+		82489290220DEE8000815C02 /* Accessoire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessoire.swift; sourceTree = "<group>"; };
+		82489292220DF0D400815C02 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		9AD23D2B0EB2C0120638FD5C /* Pods_raccord_project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_raccord_project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48B5144AAFDB26FF17B4D01 /* Pods-raccord_project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-raccord_project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-raccord_project/Pods-raccord_project.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +87,12 @@
 		82489285220DEC0200815C02 /* Data Model */ = {
 			isa = PBXGroup;
 			children = (
+				82489288220DEC9E00815C02 /* Films.swift */,
+				8248928C220DEE6500815C02 /* Sequence.swift */,
+				8248928E220DEE7100815C02 /* Decor.swift */,
+				8248928A220DEE5200815C02 /* Perso.swift */,
+				82489290220DEE8000815C02 /* Accessoire.swift */,
+				82489292220DF0D400815C02 /* Photo.swift */,
 			);
 			path = "Data Model";
 			sourceTree = "<group>";
@@ -90,7 +108,7 @@
 		82489287220DEC0C00815C02 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				82489275220DEB8E00815C02 /* ViewController.swift */,
+				82489275220DEB8E00815C02 /* FilmViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -234,8 +252,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82489276220DEB8E00815C02 /* ViewController.swift in Sources */,
+				82489293220DF0D400815C02 /* Photo.swift in Sources */,
+				82489276220DEB8E00815C02 /* FilmViewController.swift in Sources */,
+				82489289220DEC9E00815C02 /* Films.swift in Sources */,
 				82489274220DEB8E00815C02 /* AppDelegate.swift in Sources */,
+				8248928D220DEE6500815C02 /* Sequence.swift in Sources */,
+				8248928B220DEE5200815C02 /* Perso.swift in Sources */,
+				8248928F220DEE7100815C02 /* Decor.swift in Sources */,
+				82489291220DEE8000815C02 /* Accessoire.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
