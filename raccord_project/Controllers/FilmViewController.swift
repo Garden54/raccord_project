@@ -46,6 +46,29 @@ class FilmViewController: UITableViewController {
         return cell
         
     }
+    
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //Mark: - TableView Delegate Methods
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "goToHome", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationVC = segue.destination as! HomeViewController
+        
+        if let indexPath = tableView.indexPathForSelectedRow {
+            destinationVC.selectedFilm = films?[indexPath.row]
+        }
+        
+    }
+    
+    
+    
+    
+    
+    
         
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
         //Mark: - Ajouter un film

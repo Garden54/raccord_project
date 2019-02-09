@@ -19,6 +19,10 @@
 		8248928F220DEE7100815C02 /* Decor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8248928E220DEE7100815C02 /* Decor.swift */; };
 		82489291220DEE8000815C02 /* Accessoire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82489290220DEE8000815C02 /* Accessoire.swift */; };
 		82489293220DF0D400815C02 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82489292220DF0D400815C02 /* Photo.swift */; };
+		82489297220EEDF300815C02 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82489296220EEDF300815C02 /* HomeViewController.swift */; };
+		82489299220F115F00815C02 /* SequenceNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82489298220F115F00815C02 /* SequenceNavigationController.swift */; };
+		8248929B220F2DE500815C02 /* SequenceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8248929A220F2DE500815C02 /* SequenceTableViewController.swift */; };
+		8248929D220F2E6900815C02 /* SequenceCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8248929C220F2E6900815C02 /* SequenceCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		8248928E220DEE7100815C02 /* Decor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decor.swift; sourceTree = "<group>"; };
 		82489290220DEE8000815C02 /* Accessoire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessoire.swift; sourceTree = "<group>"; };
 		82489292220DF0D400815C02 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		82489296220EEDF300815C02 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		82489298220F115F00815C02 /* SequenceNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceNavigationController.swift; sourceTree = "<group>"; };
+		8248929A220F2DE500815C02 /* SequenceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceTableViewController.swift; sourceTree = "<group>"; };
+		8248929C220F2E6900815C02 /* SequenceCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceCollectionViewController.swift; sourceTree = "<group>"; };
 		9AD23D2B0EB2C0120638FD5C /* Pods_raccord_project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_raccord_project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48B5144AAFDB26FF17B4D01 /* Pods-raccord_project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-raccord_project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-raccord_project/Pods-raccord_project.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +117,10 @@
 			isa = PBXGroup;
 			children = (
 				82489275220DEB8E00815C02 /* FilmViewController.swift */,
+				82489296220EEDF300815C02 /* HomeViewController.swift */,
+				82489298220F115F00815C02 /* SequenceNavigationController.swift */,
+				8248929A220F2DE500815C02 /* SequenceTableViewController.swift */,
+				8248929C220F2E6900815C02 /* SequenceCollectionViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -252,13 +264,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82489299220F115F00815C02 /* SequenceNavigationController.swift in Sources */,
 				82489293220DF0D400815C02 /* Photo.swift in Sources */,
 				82489276220DEB8E00815C02 /* FilmViewController.swift in Sources */,
 				82489289220DEC9E00815C02 /* Films.swift in Sources */,
 				82489274220DEB8E00815C02 /* AppDelegate.swift in Sources */,
+				8248929D220F2E6900815C02 /* SequenceCollectionViewController.swift in Sources */,
 				8248928D220DEE6500815C02 /* Sequence.swift in Sources */,
 				8248928B220DEE5200815C02 /* Perso.swift in Sources */,
 				8248928F220DEE7100815C02 /* Decor.swift in Sources */,
+				82489297220EEDF300815C02 /* HomeViewController.swift in Sources */,
+				8248929B220F2DE500815C02 /* SequenceTableViewController.swift in Sources */,
 				82489291220DEE8000815C02 /* Accessoire.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
